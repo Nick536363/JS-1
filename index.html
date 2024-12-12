@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <form id="maForm">
+        <input name="number1">
+        <input name="number2">
+    </form>
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="divide()">/</button>
+    <button onclick="multiply()">*</button>
+    <div id="result"></div>
+    <style>
+        div{
+            border: 2px;
+            border-style:solid;
+            width: 195px;
+            height: 50px;
+        }
+    </style>
+    <script src="index.js"></script>
+  </body>
+</html>
