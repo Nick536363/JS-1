@@ -1,4 +1,4 @@
-let form = document.getElementById("maForm");
+let form = document.getElementById("myForm");
 let result = document.getElementById("result"); 
 function addition(){
    result.textContent=Number(form.number1.value)+Number(form.number2.value)
