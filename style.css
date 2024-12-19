@@ -1,6 +1,5 @@
 #result{
- border: 2px;
-            border-style:solid;
-            width: 195px;
-            height: 50px;
+ border:2px,solid,black;
+ width: 195px;
+ height: 50px;
 }
